@@ -1,24 +1,3 @@
-/*
-the piece has the following synths:
-1. synth name:
-purpose of synth
-inputs (controls):
-input 1: name
-input 1: purpose
-input 1: input sources
-
-input 2: name
-input 2: purpose
-input 2: input sources
-...
-output:
-output 1: name
-output 1: purpose
-output 1: output destination
-...
-*/
-
-
 ~sourcesynth1 = {
 		| i1 = 0, amp1 = 0.1, i2 = 0, amp2 = 0.1, freq = 440,
 	     freqmodamp = 200, freqmodfreq = 7, freqmodmid = 1000 |
